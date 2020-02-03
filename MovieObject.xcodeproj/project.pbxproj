@@ -13,6 +13,7 @@
 		AC32C17423E8438700B6C3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32C17223E8438700B6C3C4 /* Main.storyboard */; };
 		AC32C17623E8438800B6C3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC32C17523E8438800B6C3C4 /* Assets.xcassets */; };
 		AC32C17923E8438800B6C3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32C17723E8438800B6C3C4 /* LaunchScreen.storyboard */; };
+		AC32C18223E8440300B6C3C4 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C18123E8440300B6C3C4 /* plane.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC32C17523E8438800B6C3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC32C17823E8438800B6C3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC32C17A23E8438800B6C3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC32C18123E8440300B6C3C4 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		AC32C16023E8438700B6C3C4 = {
 			isa = PBXGroup;
 			children = (
+				AC32C18023E843FA00B6C3C4 /* images */,
 				AC32C16B23E8438700B6C3C4 /* MovieObject */,
 				AC32C16A23E8438700B6C3C4 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				AC32C17A23E8438800B6C3C4 /* Info.plist */,
 			);
 			path = MovieObject;
+			sourceTree = "<group>";
+		};
+		AC32C18023E843FA00B6C3C4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC32C18123E8440300B6C3C4 /* plane.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC32C18223E8440300B6C3C4 /* plane.png in Resources */,
 				AC32C17923E8438800B6C3C4 /* LaunchScreen.storyboard in Resources */,
 				AC32C17623E8438800B6C3C4 /* Assets.xcassets in Resources */,
 				AC32C17423E8438700B6C3C4 /* Main.storyboard in Resources */,
